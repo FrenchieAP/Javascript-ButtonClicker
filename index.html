@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div id="navbar">
+        <div id="dojonary">
+            <p>Dojonary</p>
+        </div>
+        <div id="search">
+            <p><input placeholder="Search"></p>
+        </div>
+        <div id="login">
+            <p onclick="turnOff(this)">Login</p>
+        </div>    
+    </div>
+    <div id="main">
+        <!-- Both Left Containers -->
+        <div id="left">
+            <!-- Top Left Container -->
+            <div id="ninja1">
+                <div id="leftcontent">
+                    <h1>ninja</h1>
+                    <h2 class="italic">noun</h2>
+                    <h3>Plural: ninjas</h3>
+                    <div onclick="alert('Ninja was liked')" id="likes"><p>13 likes</p></div>
+                </div>
+                <div id="rightcontent">
+                    <p>A practitioner skilled in the <a href="www.google.com">Japanese</a> art of <a href="www.google.com">ninjutsu</a>.</p>
+                </div>
+            </div>
+            <!-- Bottom Left Container -->
+            <div id="ninja2">
+                <div id="leftcontent">
+                    <h1>ninja</h1>
+                    <h2 class="italic">noun</h2>
+                    <h3>Plural: ninjas</h3>
+                    <div onclick="alert('Ninja was liked')" id="likes"><p>37 likes</p></div>
+                </div>
+                <div id="rightcontent">
+                    <p>A <a href="www.google.com">programmer</a> who breaks down problems with <a href="www.google.com">zen</a>-like focus.</p>
+                </div>
+            </div>    
+        </div>
+        <!-- Right Container -->
+        <div id="definition">
+            <p id="dojonary2">Dojonary is defined by YOU</p>
+            <p onclick="remove(this)" id="defbtn">Add Definition</p>
+        </div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
